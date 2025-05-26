@@ -1,0 +1,44 @@
+<addons>
+  <!-- ריפו שלך -->
+  <addon id="repository.natkitv" name="NATKITV REPO" version="1.0.0" provider-name="Natki">
+    <requires>
+      <import addon="xbmc.addon" version="19.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="NATKITV REPO">
+      <info>https://natiliza.github.io/natki-tv/addons.xml</info>
+      <checksum>https://natiliza.github.io/natki-tv/addons.xml.md5</checksum>
+      <datadir>https://natiliza.github.io/natki-tv/zips/repository.natkitv/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="he">ריפו רשמי של נטקי טיוי</summary>
+      <description lang="he">מאגר הרחבות מעוצב לבניית Kodi</description>
+      <platform>all</platform>
+      <icon>https://natiliza.github.io/natki-tv/zips/repository.natkitv/icon.png</icon>
+      <fanart>https://natiliza.github.io/natki-tv/zips/repository.natkitv/fanart.jpg</fanart>
+    </extension>
+  </addon>
+
+  <!-- ריפו של פישנזון -->
+  <addon id="repository.fishenzon" name="Fishenzon Repo" version="1.0.0" provider-name="Fishenzon">
+    <extension point="xbmc.addon.repository">
+      <info>https://natiliza.github.io/natki-tv/zips/repository.fishenzon/addon.xml</info>
+      <checksum>https://natiliza.github.io/natki-tv/zips/repository.fishenzon/addon.xml.md5</checksum>
+      <datadir>https://natiliza.github.io/natki-tv/zips/repository.fishenzon/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="he">ריפו של פישנזון</summary>
+      <description lang="he">ריפו חינמי לתוספים שימושיים</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+
+  <!-- עידן פלוס -->
+  <addon id="plugin.video.idanplus" name="עידן פלוס" version="2.0.0" provider-name="TVaddons">
+    <extension point="xbmc.python.pluginsource" library="default.py" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="he">שידורי ערוצים חיים של עידן פלוס</summary>
+      <description lang="he">שידורי טלוויזיה חיים מהערוצים הישראליים</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+</addons>
