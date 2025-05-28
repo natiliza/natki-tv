@@ -1,0 +1,39 @@
+<addons>
+  <addon id="repository.natkitv" name="NATKITV REPO" version="1.0.0" provider-name="natkitv">
+    <requires>
+      <import addon="xbmc.addon" version="19.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository">
+      <info>https://raw.githubusercontent.com/natiliza/natkitv/main/zips/repository.natkitv/addon.xml</info>
+      <checksum>https://raw.githubusercontent.com/natiliza/natkitv/main/zips/repository.natkitv/addons.xml.md5</checksum>
+      <datadir>https://raw.githubusercontent.com/natiliza/natkitv/main/zips/repository.natkitv/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="he">NATKITV REPO מאגר הרחבות</summary>
+      <description lang="he">מאגר ההרחבות של NATKI TV</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+
+  <addon id="repository.fishenzon" name="Fishenzon Repo" version="1.0.0" provider-name="Fishenzon">
+    <extension point="xbmc.addon.repository">
+      <info>https://raw.githubusercontent.com/natiliza/natkitv/main/zips/repository.fishenzon/addon.xml</info>
+      <checksum>https://raw.githubusercontent.com/natiliza/natkitv/main/zips/repository.fishenzon/addons.xml.md5</checksum>
+      <datadir>https://raw.githubusercontent.com/natiliza/natkitv/main/zips/repository.fishenzon/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="he">מאגר ההרחבות של פישנזון</summary>
+      <description lang="he">Fishenzon repository</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+
+  <addon id="plugin.video.idanplus" name="עידן פלוס" version="2.0.0" provider-name="Tvaddons">
+    <extension point="xbmc.python.pluginsource" library="default.py" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="he">עידן פלוס</summary>
+      <description lang="he">שידורי עידן פלוס</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+</addons>
